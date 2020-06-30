@@ -11,11 +11,11 @@
 } # import packages
 
 {
-  usethis::use_git_config(user.name = "x", # full name
-                          user.email = "x") # Semail
+  usethis::use_git_config(user.name = "Vinicius Vale", # full name
+                          user.email = "vinicius.a.vale@gmail.com") # Semail
   usethis::browse_github_token()
   
-  GITHUB_PAT= "x"
+  GITHUB_PAT= "3077a916c789191d03798dd27d83d4f8bcc4dce9"
   
 } # git information
 
@@ -69,7 +69,7 @@
   remove(list = c("dcovid19", "tmp", "url"))  
   
 } # database by city
-
+.
 {
   ## Import COVID cities database
   
